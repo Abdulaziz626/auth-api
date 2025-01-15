@@ -27,6 +27,7 @@ public class AuthenticationController {
     @PostMapping("/signup")
     public ResponseEntity<User> register(@RequestBody RegisterUserDto registerUserDto) {
         User registeredUser = authenticationService.signup(registerUserDto);
+        System.out.println("hello Azoz");
 
         return ResponseEntity.ok(registeredUser);
     }
