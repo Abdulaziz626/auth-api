@@ -1,1 +1,1 @@
-console.lg("Hello git and GitHub Abdulaziz Aljuhani")
+console.lg("Hello git and GitHub Abdulaziz Hamza Aljuhani")
